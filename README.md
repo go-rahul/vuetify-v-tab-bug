@@ -16,5 +16,5 @@ If this is a native custom element, make sure to exclude it from component resol
 or,
 
 1. Create a new Vue 3 project using Vue CLI.
-2. Add Vuetify (preview version).
+2. Add Vuetify by running `vue add vuetify` & select Vuetify 3 Preview.
 3. Try to use the v-tab component.
