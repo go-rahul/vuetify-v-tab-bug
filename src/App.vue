@@ -2,6 +2,10 @@
   <v-app>
     <v-main>
       <HelloWorld/>
+      <v-tabs>
+        <v-tab>tab 1</v-tab>
+        <v-tab>tab 2</v-tab>
+      </v-tabs>
     </v-main>
   </v-app>
 </template>
