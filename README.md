@@ -1,19 +1,20 @@
 # vuetify-v-tab-bug
+v-tabs and v-tab components are not working.
 
-## Project setup
-```
-yarn install
-```
+# Error
+[Vue warn]: Failed to resolve component: v-tab<br>
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+[Vue warn]: Failed to resolve component: v-tabs<br>
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
 
-### Compiles and minifies for production
-```
-yarn build
-```
+# How to reproduce?
+1. Clone this repo.
+2. Run `yarn install`.
+3. Run `yarn serve`.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+or,
+
+1. Create a new Vue 3 project using Vue CLI.
+2. Add Vuetify (preview version).
+3. Try to use the v-tab component.
